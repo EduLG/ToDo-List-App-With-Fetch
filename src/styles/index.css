@@ -1,11 +1,15 @@
-/* 
-
-    You can write your own styles here...
+/* Por defecto, el botón está oculto */
+body{
+    color: rgb(230, 229, 229);
+    background-color: rgb(99, 98, 98);
+  }
+  
+  
+  
+  .inv-btn {
+      display: none;
+    }
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+    .list-group-item:hover .inv-btn {
+      display: inline-block;
+    }
